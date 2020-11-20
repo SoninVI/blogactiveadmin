@@ -1,0 +1,27 @@
+@font-face {
+		font-family: "GraublauWeb-Regular";
+		src: url("../fonts/GraublauWeb-Regular/GraublauWeb-Regular.eot");
+		src: url("../fonts/GraublauWeb-Regular/GraublauWeb-Regular.eot?#iefix")format("embedded-opentype"),
+		url("../fonts/GraublauWeb-Regular/GraublauWeb-Regular.woff") format("woff"),
+		url("../fonts/GraublauWeb-Regular/GraublauWeb-Regular.ttf") format("truetype");
+		font-style: normal;
+		font-weight: normal;
+}
+@font-face {
+		font-family: "GraublauWeb-Bold";
+		src: url("../fonts/GraublauWeb-Bold/GraublauWeb-Bold.eot");
+		src: url("../fonts/GraublauWeb-Bold/GraublauWeb-Bold.eot?#iefix")format("embedded-opentype"),
+		url("../fonts/GraublauWeb-Bold/GraublauWeb-Bold.woff") format("woff"),
+		url("../fonts/GraublauWeb-Bold/GraublauWeb-Bold.ttf") format("truetype");
+		font-style: normal;
+		font-weight: normal;
+}
+@font-face {
+		font-family: "YanoneKaffeesatz-Regular";
+		src: url("../fonts/YanoneKaffeesatz-Regular/YanoneKaffeesatz-Regular.eot");
+		src: url("../fonts/YanoneKaffeesatz-Regular/YanoneKaffeesatz-Regular.eot?#iefix")format("embedded-opentype"),
+		url("../fonts/YanoneKaffeesatz-Regular/YanoneKaffeesatz-Regular.woff") format("woff"),
+		url("../fonts/YanoneKaffeesatz-Regular/YanoneKaffeesatz-Regular.ttf") format("truetype");
+		font-style: normal;
+		font-weight: normal;
+}

@@ -1,0 +1,13 @@
+do /home/sonin/Рабочий стол/ror/finish/threezine/bin/bundle exec /home/sonin/.rvm/rubies/ruby-2.5.0/bin/ruby /home/sonin/Рабочий стол/ror/finish/threezine/bin/rake routes --trace 
+Ruby enVironment Manager 1.29.10 (latest) (c) 2009-2017 Michal Papis, Piotr Kuczynski, Wayne E. Seguin
+
+     Prefix Verb   URI Pattern                Controller#Action
+       root GET    /                          homes#index
+      posts GET    /post(.:format)            posts#index
+   post_new GET    /post_new(.:format)        posts#new
+       post POST   /post(.:format)            posts#create
+ posts_show GET    /post_show(.:format)       posts#show
+  post_show GET    /post/:id(.:format)        posts#show
+ posts_edit GET    /post/:id/edit(.:format)   posts#edit
+post_update PATCH  /post/:id/update(.:format) posts#update
+post_delete DELETE /post/:id/delete(.:format) posts#destroy
