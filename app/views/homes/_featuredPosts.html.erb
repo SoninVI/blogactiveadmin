@@ -1,0 +1,57 @@
+<div class="bd-toc-item bg-fff featured_posts">
+  <% @posts.last(1).each do |post| %>
+  <h2><a class="bd-toc-link" href="#"><%= post.name %> </a></h2>
+  <div class="post-info d-flex justify-content-around pt-3">
+    <div class="info-wrap d-flex">
+      <div class="info-wrap-icon">
+        <i class="fa fa-calendar" aria-hidden="true"></i>
+      </div>
+      <div class="info-wrap-text">
+        <p><%= post.created_at %></p>
+      </div>
+    </div>
+    <div class="info-wrap d-flex">
+      <div class="info-wrap-icon">
+        <i class="fa fa-user" aria-hidden="true"></i>
+      </div>
+      <div class="info-wrap-text">
+        <p>User </p>
+      </div>
+    </div>
+    <div class="info-wrap d-flex">
+      <div class="info-wrap-icon">
+        <i class="fa fa-comment" aria-hidden="true"></i>
+      </div>
+      <div class="info-wrap-text">
+        <p>Comment </p>
+      </div>
+    </div>
+    <div class="info-wrap d-flex">
+      <div class="info-wrap-icon">
+        <i class="fa fa-link" aria-hidden="true"></i>
+      </div>
+      <div class="info-wrap-text">
+        <p>link</p>
+      </div>
+    </div>
+  </div>
+  <div class=" d-flex flex-column wrap_post_top">
+    <div class="media media-aside pt-2">
+      <%= image_tag('Layer 16.png', class: "post-foto align-self-center mr-3") %>
+    </div>
+  </div>
+  <div class="post-content">
+    <p><%= post.content %></p>
+  </div>
+  <div class="post-info_footer d-flex pt-3">
+    <div class="info-wrap d-flex">
+      <div class="info-wrap-icon">
+        <i class="fa fa-tag" aria-hidden="true"></i>
+      </div>
+      <div class="info-wrap-text">
+        <p>Tag </p>
+      </div>
+    </div>
+  </div>
+    <% end %>
+</div>

@@ -1,33 +1,15 @@
 <div class="bd-toc-item bg-fff recent_posts">
   <a class="bd-toc-link" href="#">recent Posts</a>
   <div class=" d-flex flex-column wrap_post_top">
-    <div class="media media-aside pt-2">
-      <%= image_tag('Layer 28.png', class: "align-self-center mr-3") %>
-      <div class="media-body">
-        <p class="mt-0">Center-aligned media</p>
-        <span>12 comments</span>
+    <% @posts.last(4).each do |post| %>
+      <div class="media media-aside pt-2">
+        <%= image_tag('Layer 28.png', class: "align-self-center mr-3") %>
+        <div class="media-body">
+          <p class="mt-0"><%= post.name %></p>
+          <span>12 comments</span>
+        </div>
       </div>
-    </div>
-    <div class="media media-aside pt-2">
-      <%= image_tag('Layer 28.png', class: "align-self-center mr-3") %>
-      <div class="media-body">
-        <p class="mt-0">Center-aligned media</p>
-        <span>12 comments</span>
-      </div>
-    </div>
-    <div class="media media-aside pt-2">
-      <%= image_tag('Layer 28.png', class: "align-self-center mr-3") %>
-      <div class="media-body">
-        <p class="mt-0">Center-aligned media</p>
-        <span>12 comments</span>
-      </div>
-    </div>
-    <div class="media media-aside pt-2">
-      <%= image_tag('Layer 28.png', class: "align-self-center mr-3") %>
-      <div class="media-body">
-        <p class="mt-0">Center-aligned media</p>
-        <span>12 comments</span>
-      </div>
-    </div>
+      <% end %>
+
   </div>
 </div>
